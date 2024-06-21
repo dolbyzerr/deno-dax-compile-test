@@ -1,7 +1,7 @@
 {
   "tasks": {
     "dev": "deno run --watch main.ts",
-    "compile-bundle": "mkdir -p .tmp && deno bundle main.ts .tmp/main.js && deno compile --allow-env --allow-read --allow-write --allow-net --output bin/main-bundled main.js",
+    "compile-bundle": "mkdir -p .tmp && deno bundle main.ts .tmp/main.js && deno compile --allow-env --allow-read --allow-write --allow-net --output bin/main-bundled .tmp/main.js",
     "compile": "deno compile --allow-env --allow-read --allow-write --allow-net --output bin/main main.ts"
   },
   "imports": {
