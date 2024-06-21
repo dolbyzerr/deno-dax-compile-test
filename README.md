@@ -1,4 +1,4 @@
-# Test repo to test [@dsherret/dax](https://github.com/dsherret/dax) with deno compile
+# Test repo to check how `deno compile` works with [@dsherret/dax](https://github.com/dsherret/dax)
 
 ```bash
 deno task compile-bundle
