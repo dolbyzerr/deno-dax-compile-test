@@ -1,0 +1,8 @@
+# Test repo to test [@dsherret/dax](https://github.com/dsherret/dax) with deno compile
+
+```bash
+deno task compile-bundle
+deno task compile
+./bin/main-bundled # hello world
+./bin/main # hangs
+```
